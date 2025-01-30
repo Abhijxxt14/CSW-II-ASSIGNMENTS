@@ -6,7 +6,7 @@ class Rectangle {
 		this.length=length;
 		this.breadth=breadth;
 	}
-	public int getLrngth() {
+	public int getLength() {
 		return length;
 	}
 	public int getBreadth() {
@@ -29,17 +29,14 @@ public class Ques2 {
 
 	public static void main(String[] args) {
 		Rectangle obj = new Rectangle( 5, 9 );
-		System.out.println("area is ");
-		obj.Area();
-		System.out.print("perimeter is ");
-		obj.Perimeter();
-		System.out.print("set new value");
-		obj.setLength(59);
+		System.out.println("area is "+ obj.Area());
+		System.out.println("perimeter is " + obj.Perimeter());
+		System.out.println("new value");
+		obj.setLength(70);
 		obj.setBreadth(20);
-		System.out.print( "area is" );
-		obj.Area();
-		System.out.println("perimeter is ");
-		obj.Perimeter();
+		System.out.println( "area is " + obj.Area() );
+		System.out.println("perimeter is " + obj.Perimeter());
+		
 
 	}
 
