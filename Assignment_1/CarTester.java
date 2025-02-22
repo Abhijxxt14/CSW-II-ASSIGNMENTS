@@ -24,7 +24,7 @@ class Car {
 	
 }
 
-public class CarTester {
+public class Ques1{
 
 	public static void main(String[] args) {
 	Car mycar1 = new Car( 2016," ABC ");
